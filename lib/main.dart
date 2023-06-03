@@ -18,6 +18,9 @@ class MyApp extends StatelessWidget {
     return  GetMaterialApp(
       initialRoute: AppPages.initial,
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        fontFamily: "playfairDisplay"
+      ),
 
       getPages: AppPages.routes,
     );
